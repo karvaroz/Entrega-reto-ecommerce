@@ -1,0 +1,319 @@
+{
+  "clothing": [
+    {
+      "id": 1,
+      "name": "CAMISETA NEGRA",
+      "price": 48000,
+      "description:": "CAMISETA OVERSIZE NEGRO TEXTO NONSTANDARD",
+      "type": "CAMISETAS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 2,
+      "name": "CAMISETA ROSADA",
+      "price": 42000,
+      "description:": "CAMISETA BOX FIT ROSADO TEXTO NOMAD",
+      "type": "CAMISETAS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/1/61004-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 3,
+      "name": "TANK AZUL",
+      "price": 38000,
+      "description:": "TANK AZUL ILUSTRACIÓN",
+      "type": "TANKS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/1/61047-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 4,
+      "name": "TANK BALNCO",
+      "price": 38000,
+      "description:": "TANK MARFIL ILUSTRACIÓN RXS",
+      "type": "TANKS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/4/64007-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 5,
+      "name": "POLO CAMUFLADO",
+      "price": 76000,
+      "description:": "POLO EN PIQUÉ VERDE CAMUFLADO NONSTANDARD",
+      "type": "POLO",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62943-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 6,
+      "name": "POLO MARFIL",
+      "price": 64000,
+      "description:": "POLO EN PIQUÉ MARFIL BÁSICO NOMAD",
+      "type": "POLO",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/5/9/59176-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 7,
+      "name": "BUZO ROSADO",
+      "price": 80000,
+      "description:": "BUZO PULLOVER ROSADO BÁSICO NOMAD",
+      "type": "BUZO",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/6/66747-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 8,
+      "name": "BUZO AZUL",
+      "price": 96000,
+      "description:": "BUZO HOODIE AZUL TEXTO NONSTANDARD",
+      "type": "BUZO",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62938-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 9,
+      "name": "CAMISA FLORES",
+      "price": 76000,
+      "description:": "CAMISA MANGA CORTA EN CHALIS NEGRO FLORES RXS",
+      "type": "CAMISA",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62947-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 10,
+      "name": "CHAQUETA JEAN",
+      "price": 76000,
+      "description:": "SOBRECAMISA DENIM AZUL CLARO LAVANDERÍA NONSTANDARD",
+      "type": "CHAQUETA",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/5/8/58730-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 11,
+      "name": "SHORT ROSA",
+      "price": 74000,
+      "description:": "SHORTS EN PIQUÉ ROSADO TEXTO OFFSEASON",
+      "type": "SHORT",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/1/61813-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 12,
+      "name": "SHORT GRIS",
+      "price": 72000,
+      "description:": "SHORTS EN PIQUÉ GRIS BÁSICO NOMAD",
+      "type": "SHORT",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62631-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 13,
+      "name": "JEAN NEGRO",
+      "price": 92000,
+      "description:": "JEANS SKINNY FIT NEGRO RASPONES RXS",
+      "type": "JEAN",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/5/6/56315-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 14,
+      "name": "PANTALON CAFE",
+      "price": 112000,
+      "description:": "PANTALÓN CARGO CAFE BÁSICO RXS",
+      "type": "PANTALON",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/5/7/57146-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 15,
+      "name": "PANTALON GRIS",
+      "price": 134000,
+      "description:": "PANTALÓN CARGO GRIS BÁSICO NONSTANDARD",
+      "type": "PANTALON",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/5/8/58702-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 16,
+      "name": "JOGGERS CAMUFLADO",
+      "price": 94000,
+      "description:": "JOGGERS PERCHADO GRIS CAMUFLADO NONSTANDARD",
+      "type": "JOGGER",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/3/63008-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 17,
+      "name": "JOGGERS AZUL",
+      "price": 88000,
+      "description:": "JOGGERS AZUL OSCURO BÁSICO NOMAD",
+      "type": "JOGGER",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62630-1.jpg",
+      "category": "MEN"
+    },
+    {
+      "id": 18,
+      "name": "TOP BEIGE",
+      "price": 34000,
+      "description:": "TOP TANK BEIGE BÁSICO",
+      "type": "TOP",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/4/64918-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 19,
+      "name": "TOP BLANCO",
+      "price": 40000,
+      "description:": "TOP MANGA LARGA BLANCO ILUSTRACIÓN",
+      "type": "TOP",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/3/63781-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 20,
+      "name": "CAMISETA BLANCO",
+      "price": 34000,
+      "description:": "CAMISETA BLANCO ILUSTRACIÓN",
+      "type": "CAMISETA",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/3/63028-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 21,
+      "name": "CAMISETA ROSADO",
+      "price": 38000,
+      "description:": "CAMISETA ECO OVERSIZE ROSADO TEXTO",
+      "type": "CAMISETA",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62483-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 22,
+      "name": "BUZO TERRACOTA",
+      "price": 58000,
+      "description:": "BUZO PULLOVER PERCHADO TERRACOTA TEXTO",
+      "type": "BUZO",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62540-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 23,
+      "name": "VESTIDO MANDARINA",
+      "price": 70000,
+      "description:": "VESTIDO CORTO MANDARINA FLORES",
+      "type": "VESTIDO",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/1/61694-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 24,
+      "name": "VESTIDO AZUL",
+      "price": 54000,
+      "description:": "VESTIDO CORTO AZUL BÁSICO",
+      "type": "VESTIDO",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62531-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 25,
+      "name": "SHORTS AZUL",
+      "price": 70000,
+      "description:": "SHORTS DENIM AZUL ROTOS THE NOISE TRIBE",
+      "type": "SHORTS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/5/8/58834-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 26,
+      "name": "SHORTS AMARILLO",
+      "price": 42000,
+      "description:": "SHORTS EN BURDA AMARILLO BÁSICO",
+      "type": "CAMISA",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/4/64566-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 27,
+      "name": "CAMISA NEGRO",
+      "price": 62000,
+      "description:": "CAMISA MANGA LARGA NEGRO BÁSICO DREAMERS",
+      "type": "CAMISA",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/5/6/56044-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 28,
+      "name": "JEANS AZUL",
+      "price": 92000,
+      "description:": "JEANS WIDE LEG TIRO ALTO AZUL OSCURO APLIQUES",
+      "type": "JEANS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62887-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 29,
+      "name": "JEANS ROTOS",
+      "price": 90000,
+      "description:": "JEANS SKINNY TIRO ALTO AZUL ROTOS",
+      "type": "JEANS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/1/61870-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 30,
+      "name": "PANTALÓN NEGRO",
+      "price": 86000,
+      "description:": "PANTALÓN NEGRO APLIQUES DREAMERS",
+      "type": "PANTALON",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/5/8/58871-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 31,
+      "name": "PANTALÓN VERDE",
+      "price": 92000,
+      "description:": "PANTALÓN CARGO VERDE BÁSICO",
+      "type": "PANTALON",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62221-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 32,
+      "name": "HAREMS VERDE",
+      "price": 66000,
+      "description:": "HAREMS EN RIB VERDE BÁSICO",
+      "type": "HAREMS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/0/60581-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 33,
+      "name": "JOGGERS CAFE",
+      "price": 78000,
+      "description:": "JOGGERS CAFE BÁSICO",
+      "type": "JOGGERS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62550-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 34,
+      "name": "JOGGERS MARFIL",
+      "price": 76000,
+      "description:": "JOGGERS MARFIL BLOQUES",
+      "type": "JOGGERS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/4/64936-1.jpg",
+      "category": "WOMEN"
+    },
+    {
+      "id": 35,
+      "name": "JOGGERS AMARILLO",
+      "price": 74000,
+      "description:": "JOGGERS AMARILLO BÁSICO",
+      "type": "JOGGERS",
+      "image": "https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/3/63098-1.jpg",
+      "category": "WOMEN"
+    }
+  ]
+}
