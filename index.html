@@ -10,76 +10,99 @@
     <title>Ecommerce</title>
 </head>
 
-<header>
-    <div class="nav container">
-        <a href="#" class="logo"> Ecommerce</a>
-        <a href="#" class="logo">Home</a>
-        <a href="#" class="logo">Products</a>
-        <i class='bx bx-cart' id="cart-icon"></i>
-    </div>
-</header>
-
 <body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo"> Ecommerce</a>
+            <a href="#" class="logo">Home</a>
+            <a href="#" class="logo">Products</a>
+            <i class='bx bx-cart' id="cart-icon"></i>
 
+            <div class="cart">
+                <h2 class="cart-title">Titulo</h2>
+                <div class="cart-content">
+                    <div class="cart-box">
+                        <img src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg"
+                            alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Product</div>
+                            <div class="cart-price">600</div>
+                            <input type="number" value="1" class="cart-quantity">
+                            <i class="bx bxs-trash-alt cart-remove"></i>
+                        </div>
+                    </div>
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price"></div>
+                    </div>
+                    <button type="button" class="btn-buy">Comprar</button>
+                    <i class="bx bx-x" id="close-cart"></i>
+                </div>
+            </div>
+        </div>
+    </header>
     <main>
         <img src="https://www.mattelsa.net/media/Home/PpalGif140322.gif" alt="">
-        <h2 class="section-title">Categorías</h2>
-        <section class="categories">
-            <div class="category-box">
-                <h2 class="category-title">HOMBRES</h2>
-                <img class="category-img"
-                    src="https://www.mattelsa.net/media/catalog/product/cache/765192c1ed46e751e7dbdd5dced96608/6/0/60685-1.jpg"
-                    alt="" href="#">
-            </div>
-            <div class="category-box">
-                <h2 class="category-title">MUJERES</h2>
-                <img class="category-img"
-                    src="https://www.mattelsa.net/media/catalog/product/cache/765192c1ed46e751e7dbdd5dced96608/6/4/64923-1.jpg"
-                    alt="" href="#">
-            </div>
-        </section>
-        <h2 class="section-title">Shop Products</h2>
-
-        <section class="shop container">
-            <h2 class="section-title"></h2>
-            <div class="shop-content">
-                <div class="product-box">
-                    <img src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg"
-                        alt="" class="product-img">
-                    <h2 class="product-title">Product Name</h2>
-                    <span class="price">$100</span>
-                    <i class='bx bx-shopping-bag add-cart'></i>
-                </div>
-            </div>
-            <div class="shop-content">
-                <div class="product-box">
-                    <img src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg"
-                        alt="" class="product-img">
-                    <h2 class="product-title">Product Name</h2>
-                    <span class="price">$100</span>
-                    <i class='bx bx-shopping-bag add-cart'></i>
-                </div>
-            </div>
-            <div class="shop-content">
-                <div class="product-box">
-                    <img src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg"
-                        alt="" class="product-img">
-                    <h2 class="product-title">Product Name</h2>
-                    <span class="price">$100</span>
-                    <i class='bx bx-shopping-bag add-cart'></i>
-                </div>
-            </div>
-            <div class="shop-content">
-                <div class="product-box">
-                    <img src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg"
-                        alt="" class="product-img">
-                    <h2 class="product-title">Product Name</h2>
-                    <span class="price">$100</span>
-                    <i class='bx bx-shopping-bag add-cart'></i>
-                </div>
-            </div>
-        </section>
     </main>
+    <h2 class="section-title">Categorías</h2>
+    <section class="categories">
+        <div class="category-box">
+            <h2 class="category-title">HOMBRES</h2>
+            <img class="category-img"
+                src="https://www.mattelsa.net/media/catalog/product/cache/765192c1ed46e751e7dbdd5dced96608/6/0/60685-1.jpg"
+                alt="" href="#">
+        </div>
+        <div class="category-box">
+            <h2 class="category-title">MUJERES</h2>
+            <img class="category-img"
+                src="https://www.mattelsa.net/media/catalog/product/cache/765192c1ed46e751e7dbdd5dced96608/6/4/64923-1.jpg"
+                alt="" href="#">
+        </div>
+    </section>
+    <h2 class="section-title">Shop Products</h2>
+
+    <section class="shop container">
+        <h2 class="section-title"></h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg"
+                    alt="" class="product-img">
+                <h2 class="product-title">Product Name</h2>
+                <span class="price">$100</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg"
+                    alt="" class="product-img">
+                <h2 class="product-title">Product Name</h2>
+                <span class="price">$100</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg"
+                    alt="" class="product-img">
+                <h2 class="product-title">Product Name</h2>
+                <span class="price">$100</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62975-1.jpg"
+                    alt="" class="product-img">
+                <h2 class="product-title">Product Name</h2>
+                <span class="price">$100</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+
+
+
     <footer>
         <div class="footer-box">ECOMMERCE</div>
         <div class="footer-box">COLOMBIA</div>
@@ -91,11 +114,7 @@
             </ul>
         </div>
     </footer>
-
-
-
-
+    <script src="/scripts/main.js"></script>
 </body>
-
 
 </html>
