@@ -62,7 +62,7 @@ header {
   font-size: 1.8rem;
   cursor: pointer;
 }
-main{
+main {
   padding-top: 4rem;
 }
 
@@ -203,7 +203,6 @@ main{
 
 .product-box {
   position: relative;
-
 }
 
 .product-box:hover {
@@ -294,41 +293,39 @@ footer i:hover {
   cursor: pointer;
 }
 
-@media (max-width: 1080px){
-  .nav{
+@media (max-width: 1080px) {
+  .nav {
     padding: 15px;
   }
-  section{
+  section {
     padding: 3rem 0 2rem;
-  } 
-  .container{
+  }
+  .container {
     margin: 0 auto;
     width: 90%;
   }
-  .shop{
+  .shop {
     margin-top: 2rem !important;
   }
-
 }
 
-@media (max-width: 400px){
-  .nav{
+@media (max-width: 400px) {
+  .nav {
     padding: 11px;
   }
-  .logo{
+  .logo {
     font-size: 1rem;
   }
-  .cart{
+  .cart {
     width: 320px;
   }
-
 }
 
-@media (max-width: 360px){
-    .shop{
+@media (max-width: 360px) {
+  .shop {
     margin-top: 1rem !important;
   }
-    .cart{
+  .cart {
     width: 280px;
   }
 }
