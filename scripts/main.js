@@ -1,3 +1,4 @@
+// TRAER PRODUCTOS DEL DATA JSON
 async function fetchData() {
   fetch("/data/data.json")
     .then((res) => res.json())
@@ -42,6 +43,7 @@ async function fetchData() {
     });
 }
 window.addEventListener("DOMContentLoaded", fetchData());
+
 
 const Clickbutton = document.querySelectorAll(".button");
 const tbody = document.querySelector(".tbody");
