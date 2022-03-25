@@ -1,118 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- BOOTSTRAP -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!-- CSS -->
-    <link rel="stylesheet" href="/styles/style.css" />
-    <title>ECOMMERCE</title>
-  </head>
 
-  <body>
-    <!-- NAVBAR -->
-    <header class="container-fluid bg-light position-sticky top-0">
-      <ul class="nav nav-tabs py-3 container" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link active text-end text-uppercase"
-            id="Inicio-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#Inicio"
-            type="button"
-            role="tab"
-            aria-controls="Inicio"
-            aria-selected="true"
-            >Inicio</a
-          >
-        </li>
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link text-end text-uppercase"
-            id="productos-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#productos"
-            type="button"
-            role="tab"
-            aria-controls="productos"
-            aria-selected="false"
-            >Productos</a
-          >
-        </li>
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link text-end text-uppercase"
-            id="carrito-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#carrito"
-            type="button"
-            role="tab"
-            aria-controls="carrito"
-            aria-selected="false"
-            >Carrito</a
-          >
-        </li>
-      </ul>
-      <!-- FIN NAVBAR -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#bla" />
+  <title>vanilla Javascript</title>
+  <!-- CSS BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles/style.css" />
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-      <!-- DIV DE CONTENIDO -->
-      <div class="tab-content" id="myTabContent">
-        <!-- DIV INICIO -->
-        <div
-          class="tab-pane fade show active"
-          id="Inicio"
-          role="tabpanel"
-          aria-labelledby="Inicio-tab"
-        >
-          <!--CONTENIDO DIV INICIO -->
-          INICIO
-        </div>
-
-        <!-- DIV PRODUCTOS -->
-        <div
-          class="tab-pane fade"
-          id="productos"
-          role="tabpanel"
-          aria-labelledby="productos-tab"
-        >
-          <!--CONTENIDO DIV PRODUCTOS -->
-          PRODUCTOS
-        </div>
-
-        <!-- DIV CARRITO -->
-        <div
-          class="tab-pane fade"
-          id="carrito"
-          role="tabpanel"
-          aria-labelledby="carrito-tab"
-        >
-          <!--CONTENIDO DIV CARRITO -->
-          CARRITO
+<body>
+  <!-- NAVBAR -->
+  <header class="container-fluid bg-light position-sticky top-0">
+    <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
+      <li class="nav-item text-primary" role="presentation">
+        <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+          role="tab" aria-controls="pills-home" aria-selected="true">Inicio</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
+          role="tab" aria-controls="pills-profile" aria-selected="false">Productos</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
+          role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</a>
+      </li>
+    </ul>
+  </header>
+  <!-- ALERTAS -->
+  <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+    Producto Añadido al carrito!
+  </div>
+  <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+    Producto removido!
+  </div>
+  <!-- CONTENEDORES INFO SECCIONES -->
+  <div class="tab-content" id="pills-tabContent">
+    <!-- INICIO SECCION CATEGORIAS-->
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <img src="https://www.mattelsa.net/media/Home/PpalDesktop2203222.jpg" class="img-fluid" alt="...">
+      <p class="h1 text-center mt-5 text-primary">Categorías</p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/3/63047-1.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h4 class="card-title">Mujeres</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://www.mattelsa.net/media/catalog/product/cache/11dadf1c318faa12046dcbbf38b711fe/6/2/62598-1.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h4 class="card-title">Hombres</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- FIN DIV DE CONTENIDO -->
-    </header>
+    </div>
+    <!-- PRODUCTOS -->
+    <div class="tab-pane fade container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <h2 class="h4 m-4 text-primary">Productos</h2>
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 box-product">
+        <!-- CARD CADA PRODUCTO -->        
+      </div>
+    </div>
+    <!-- CARRITO -->
+    <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <br />
+      <table class="table table-light table-hover">
+        <thead>
+          <tr class="text-primary">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+      </table>
+      <br /><br />
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="itemCartTotal text-white">Total: 0</h3>
+        </div>
+        <div class="col d-flex justify-content-end">
+          <button class="btn btn-success">COMPRAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <footer class="bg-light p-3 mt-5">
+    <div class="row">
+      <div class="col text-center">COLOMBIA</div>
+      <div class="col text-center">
+        <p class="text-center m-0 text-muted">ECOMMERCE</p>
+      </div>
+      <div class="col text-center">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+  </footer>
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <!-- scritp -->
+  <script src="/scripts/main.js"></script>
+</body>
 
-    <!-- JQUERY -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
-    <!-- BOOTSTRAP -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <!-- JS -->
-    <script src="/scripts/script.js"></script>
-  </body>
 </html>
